@@ -48,14 +48,14 @@ const itemVariants = {
 };
 
 const orbitStickers = [
-  { src: '/assets/stickers/snoopy-skate.png', size: 92, angle: -12 },
-  { src: '/assets/stickers/snoopy-hug-woodstock.png', size: 94, angle: 36 },
-  { src: '/assets/stickers/snoopy-sleep.png', size: 96, angle: 82 },
-  { src: '/assets/stickers/snoopy-pilot.png', size: 88, angle: 128 },
-  { src: '/assets/stickers/snoopy-blue-bear.png', size: 86, angle: 178 },
-  { src: '/assets/stickers/snoopy-hoodie.png', size: 86, angle: 228 },
-  { src: '/assets/stickers/snoopy-lie.png', size: 84, angle: 274 },
-  { src: '/assets/stickers/woodstock.png', size: 70, angle: 322 }
+  { src: 'assets/stickers/snoopy-skate.png', size: 92, angle: -12 },
+  { src: 'assets/stickers/snoopy-hug-woodstock.png', size: 94, angle: 36 },
+  { src: 'assets/stickers/snoopy-sleep.png', size: 96, angle: 82 },
+  { src: 'assets/stickers/snoopy-pilot.png', size: 88, angle: 128 },
+  { src: 'assets/stickers/snoopy-blue-bear.png', size: 86, angle: 178 },
+  { src: 'assets/stickers/snoopy-hoodie.png', size: 86, angle: 228 },
+  { src: 'assets/stickers/snoopy-lie.png', size: 84, angle: 274 },
+  { src: 'assets/stickers/woodstock.png', size: 70, angle: 322 }
 ];
 
 // Scroll-triggered fade-in wrapper
@@ -1349,7 +1349,7 @@ export default function App() {
           <div className="absolute inset-0 rounded-full bg-white/75 blur-2xl shadow-[0_24px_80px_rgba(148,163,184,0.28)]" />
 
           <motion.img
-            src="/assets/moon.png"
+            src="assets/moon.png"
             alt="Blue moon"
             className="absolute inset-0 w-full h-full object-contain"
             animate={{ rotate: 360 }}
