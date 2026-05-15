@@ -409,9 +409,7 @@ const InvitationCard = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4 }}
             whileHover={{ scale: 1.05, y: -4 }}
-            animate={{ y: [0, -3, 0] }}
             className="bg-gradient-to-br from-white to-blue-50/40 p-6 rounded-2xl space-y-4 border-4 border-dashed border-blue-300 shadow-[0_4px_20px_rgba(59,130,246,0.08)] hover:shadow-[0_8px_30px_rgba(59,130,246,0.12)] transition-all group cursor-pointer overflow-hidden relative"
-            transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut" }}
           >
             {/* Background pattern */}
             <div className="absolute inset-0 opacity-5 -z-10">
@@ -423,44 +421,26 @@ const InvitationCard = () => {
             </div>
 
             {/* Animated corner emoji */}
-            <motion.div
-              className="absolute top-2 right-2 text-2xl"
-              animate={{ rotate: [0, 360] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
-            >
+            <div className="absolute top-2 right-2 text-2xl">
               ⏰
-            </motion.div>
-            <motion.div
-              className="absolute bottom-2 left-2 text-lg"
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            >
+            </div>
+            <div className="absolute bottom-2 left-2 text-lg">
               ✨
-            </motion.div>
+            </div>
 
             <motion.div
               className="w-12 h-12 bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center text-blue-600 shadow-md relative border-2 border-blue-300"
               whileHover={{ rotate: 12 }}
-              animate={{ y: [0, -4, 0] }}
-              transition={{ duration: 3, repeat: Infinity }}
             >
               <Calendar className="w-6 h-6" />
-              <motion.div
-                className="absolute -top-2 -right-1 text-sm"
-                animate={{ rotate: [0, 360] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
-              >
+              <div className="absolute -top-2 -right-1 text-sm">
                 ⭐
-              </motion.div>
+              </div>
             </motion.div>
             <div>
-              <motion.p
-                className="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2"
-                animate={{ opacity: [0.7, 1, 0.7] }}
-                transition={{ duration: 2, repeat: Infinity }}
-              >
+              <p className="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2">
                 ⏱️ Thời gian
-              </motion.p>
+              </p>
               <p className="text-lg font-semibold text-brand-navy group-hover:text-blue-700 transition-colors">8G00 ngày 17/5/2026</p>
               <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">PH tập trung tại sân trường để gặp gỡ, trao đổi tâm tư nguyện vọng cùng cán bộ quản lý nhà trường; sau đó di chuyển lên lớp tham dự cuộc họp PH cuối học kì II.</p>
             </div>
@@ -472,9 +452,7 @@ const InvitationCard = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4, delay: 0.05 }}
             whileHover={{ scale: 1.05, y: -4 }}
-            animate={{ y: [0, -3, 0] }}
             className="bg-gradient-to-br from-white to-purple-50/40 p-6 rounded-2xl space-y-4 border-4 border-dashed border-purple-300 shadow-[0_4px_20px_rgba(168,85,247,0.08)] hover:shadow-[0_8px_30px_rgba(168,85,247,0.12)] transition-all group cursor-pointer overflow-hidden relative"
-            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
             {/* Background pattern */}
             <div className="absolute inset-0 opacity-5 -z-10">
@@ -486,46 +464,27 @@ const InvitationCard = () => {
             </div>
 
             {/* Animated corner emoji */}
-            <motion.div
-              className="absolute top-2 right-2 text-2xl"
-              animate={{ rotate: [-15, 15, -15] }}
-              transition={{ duration: 3, repeat: Infinity }}
-            >
+            <div className="absolute top-2 right-2 text-2xl">
               📍
-            </motion.div>
-            <motion.div
-              className="absolute bottom-2 left-2 text-lg"
-              animate={{ y: [0, 8, 0] }}
-              transition={{ duration: 2.5, repeat: Infinity }}
-            >
+            </div>
+            <div className="absolute bottom-2 left-2 text-lg">
               💫
-            </motion.div>
+            </div>
 
             <motion.div
               className="w-12 h-12 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center text-purple-600 shadow-md relative border-2 border-purple-300"
               whileHover={{ rotate: 12 }}
-              animate={{ y: [0, -4, 0] }}
-              transition={{ duration: 3.2, repeat: Infinity }}
             >
               <MapPin className="w-6 h-6" />
-              <motion.div
-                className="absolute -top-2 -right-1 text-sm"
-                animate={{ rotate: [-15, 15, -15] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              >
+              <div className="absolute -top-2 -right-1 text-sm">
                 ⭐
-              </motion.div>
+              </div>
             </motion.div>
             <div>
-              <motion.p
-                className="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2"
-                animate={{ opacity: [0.7, 1, 0.7] }}
-                transition={{ duration: 2.2, repeat: Infinity, delay: 0.3 }}
-              >
+              <p className="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2">
                 📌 Địa điểm
-              </motion.p>
-              <p className="text-lg font-semibold text-brand-navy group-hover:text-purple-700 transition-colors">[Nhập địa điểm]</p>
-              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">Phòng học lớp 2A - Tầng 2</p>
+              </p>
+              <p className="text-lg font-semibold text-brand-navy group-hover:text-purple-700 transition-colors">PHÒNG HỌC LỚP 29 - PHÒNG SỐ 11</p>
             </div>
           </motion.div>
         </div>
