@@ -461,8 +461,7 @@ const InvitationCard = () => {
               >
                 ⏱️ Thời gian
               </motion.p>
-              <p className="text-lg font-semibold text-brand-navy group-hover:text-blue-700 transition-colors">8G00 ngày 17/5/2026</p>
-              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">PH tập trung tại sân trường để gặp gỡ, trao đổi tâm tư nguyện vọng cùng cán bộ quản lý nhà trường; sau đó di chuyển lên lớp tham dự cuộc họp PH cuối học kì II.</p>
+              <p className="text-lg font-semibold text-brand-navy group-hover:text-blue-700 transition-colors">8:00 ngày 17/5/2026</p>
             </div>
           </motion.div>
 
@@ -524,8 +523,8 @@ const InvitationCard = () => {
               >
                 📌 Địa điểm
               </motion.p>
-              <p className="text-lg font-semibold text-brand-navy group-hover:text-purple-700 transition-colors">[Nhập địa điểm]</p>
-              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">Phòng học lớp 2A - Tầng 2</p>
+              <p className="text-lg font-semibold text-brand-navy group-hover:text-purple-700 transition-colors">Sân trường</p>
+              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">PH tập trung tại sân trường - gặp gỡ, trao đổi tâm tư, nguyện vọng cùng cán bộ quản lý nhà trường; sau đó PH di chuyển lên lớp tham dự cuộc họp PH cuối học kì II.</p>
             </div>
           </motion.div>
         </div>
