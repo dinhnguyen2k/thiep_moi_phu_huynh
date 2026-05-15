@@ -461,8 +461,8 @@ const InvitationCard = () => {
               >
                 ⏱️ Thời gian
               </motion.p>
-              <p className="text-lg font-semibold text-brand-navy group-hover:text-blue-700 transition-colors">[Nhập thời gian]</p>
-              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">Chủ Nhật, 26 tháng 5, 2024</p>
+              <p className="text-lg font-semibold text-brand-navy group-hover:text-blue-700 transition-colors">8G00 ngày 17/5/2026</p>
+              <p className="text-sm text-slate-500 mt-2 group-hover:text-slate-600 transition-colors">PH tập trung tại sân trường để gặp gỡ, trao đổi tâm tư nguyện vọng cùng cán bộ quản lý nhà trường; sau đó di chuyển lên lớp tham dự cuộc họp PH cuối học kì II.</p>
             </div>
           </motion.div>
 
@@ -627,8 +627,8 @@ const InvitationCard = () => {
             {[
               {
                 num: 1,
-                title: 'Tổng kết năm học',
-                desc: 'Báo cáo kết quả học tập, rèn luyện của lớp trong năm học vừa qua. Tuyên dương những học sinh có thành tích xuất sắc.',
+                title: 'Báo cáo kết quả năm học',
+                desc: 'Báo cáo kết quả năm học của lớp.',
                 emoji: '📖',
                 color: 'from-pink-50 to-pink-100',
                 borderColor: 'border-pink-300',
@@ -636,8 +636,8 @@ const InvitationCard = () => {
               },
               {
                 num: 2,
-                title: 'Tình hình học tập của các con',
-                desc: 'Trao đổi riêng về sự tiến bộ, điểm mạnh và những mặt cần cố gắng của từng học sinh với phụ huynh.',
+                title: 'Thông báo các hoạt động cuối năm',
+                desc: 'Thông báo các hoạt động cuối năm của lớp và nhà trường.',
                 emoji: '💡',
                 color: 'from-blue-50 to-blue-100',
                 borderColor: 'border-blue-300',
@@ -645,9 +645,36 @@ const InvitationCard = () => {
               },
               {
                 num: 3,
-                title: 'Kế hoạch hè & năm học tới',
-                desc: 'Định hướng các hoạt động hè bổ ích cho con. Thảo luận và thống nhất các kế hoạch giáo dục cho năm học tiếp theo.',
+                title: 'Thông báo thời gian nghỉ hè, đăng ký sách lớp 3',
+                desc: 'Thông tin thời gian nghỉ hè và hướng dẫn đăng ký sách lớp 3.',
                 emoji: '🌈',
+                color: 'from-purple-50 to-purple-100',
+                borderColor: 'border-purple-300',
+                accentColor: 'text-purple-600'
+              },
+              {
+                num: 4,
+                title: 'Đăng ký các môn học theo hoạt động giáo dục nhà trường',
+                desc: 'Thống nhất đăng ký các môn học theo chương trình hoạt động giáo dục của nhà trường.',
+                emoji: '📝',
+                color: 'from-pink-50 to-pink-100',
+                borderColor: 'border-pink-300',
+                accentColor: 'text-pink-600'
+              },
+              {
+                num: 5,
+                title: 'Lấy ý kiến quà khen thưởng cuối năm',
+                desc: 'Lấy ý kiến phụ huynh về quà khen thưởng cuối năm cho học sinh.',
+                emoji: '🎁',
+                color: 'from-blue-50 to-blue-100',
+                borderColor: 'border-blue-300',
+                accentColor: 'text-blue-600'
+              },
+              {
+                num: 6,
+                title: 'Ý kiến đóng góp',
+                desc: 'Phụ huynh đóng góp ý kiến để phối hợp giáo dục học sinh tốt hơn.',
+                emoji: '💬',
                 color: 'from-purple-50 to-purple-100',
                 borderColor: 'border-purple-300',
                 accentColor: 'text-purple-600'
