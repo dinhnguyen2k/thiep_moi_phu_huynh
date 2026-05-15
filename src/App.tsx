@@ -129,7 +129,7 @@ const InvitationCard = () => {
               transition={{ delay: 0.25 }}
               className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-pink-500 uppercase"
             >
-              TRƯỜNG TIỂU HỌC [Tên Trường]
+              TRƯỜNG TIỂU HỌC TRẦN QUANG CƠ
             </motion.span>
             <motion.div
               animate={{ rotate: [0, 15, 0], y: [0, -6, 0] }}
@@ -152,7 +152,7 @@ const InvitationCard = () => {
             >
               ⭐
             </motion.div>
-            Lớp 2A
+            Lớp 2.9
           </motion.div>
         </div>
 
@@ -271,7 +271,7 @@ const InvitationCard = () => {
             </motion.div>
             <div>
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-tight">Lời ngỏ từ</p>
-              <p className="text-base font-bold text-slate-800">GVCN: [Tên giáo viên]</p>
+              <p className="text-base font-bold text-slate-800">GVCN: Trần Thuỵ Anh Thư</p>
             </div>
           </div>
 
@@ -1182,12 +1182,12 @@ const EnvelopeCover = ({ onOpen }: { onOpen: () => void }) => {
           animate={phase === 'revealing' ? { y: -200, opacity: 1 } : phase === 'opening' ? { y: 88, opacity: 0.5 } : { y: 120, opacity: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
         >
-          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-5 rounded-full bg-gradient-to-r from-sky-100/80 via-pink-100/80 to-yellow-100/80 border border-white/80 shadow-sm flex items-center justify-center text-[10px]">⭐ Lớp 2A ⭐</div>
+          <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-5 rounded-full bg-gradient-to-r from-sky-100/80 via-pink-100/80 to-yellow-100/80 border border-white/80 shadow-sm flex items-center justify-center text-[10px]">⭐ Lớp 2.9 ⭐</div>
           <CornerOrnament className="absolute top-1 left-1 text-pink-400 w-12 h-12" />
           <CornerOrnament className="absolute top-1 right-1 text-pink-400 -scale-x-100 w-12 h-12" />
 
           <span className="mt-4 text-[9px] font-bold tracking-[0.22em] text-pink-400 uppercase">
-            Trường Tiểu Học [Tên Trường]
+            Trường Tiểu Học Trần Quang Cơ
           </span>
           <div className="space-y-1">
             <p className="text-[10px] font-bold tracking-[0.3em] text-pink-400 uppercase">
@@ -1433,7 +1433,7 @@ export default function App() {
               <ScrollReveal delay={0.3}>
                 <footer className="text-center pb-8 space-y-1">
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">© 2024 THIỆP MỜI ĐIỆN TỬ</p>
-                  <p className="text-[10px] text-slate-300">Trường Tiểu Học [Tên Trường]</p>
+                  <p className="text-[10px] text-slate-300">Trường Tiểu Học Trần Quang Cơ</p>
                 </footer>
               </ScrollReveal>
             </motion.div>
